@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('speakers', { path: '/' });
+  this.route('speakers');
+  this.route('about');
 });
 
 export default Router;
