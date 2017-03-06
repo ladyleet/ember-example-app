@@ -1,0 +1,13 @@
+    <div class="row">
+        {{#each speakers as |speaker|}}
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/{{speaker.picture}}">
+                    <span class="card-title">{{speaker.name}}</span>
+                </div>
+            </div>          
+        </div>
+        {{/each}}
+    </div>
+            
